@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font italiana  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <!-- google font lexend  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Lexend+Deca:wght@200&display=swap" rel="stylesheet">
+    <!-- bootstrap css link here  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn link here  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap icon cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- modal css link here  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <!-- custom css link here  -->
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- headers section started here  -->
+      <header>
+         <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg py-4 px-3">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../Media/images/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars navbar-toggler-icon toggle-icon"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">About</a> </li>
+                  <li class="nav-item"><a class="nav-link" href="#">Property</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#" >Pages <img src="../Media/images/arrow.png" alt="" class="ms-1"></a> </li>
+                  <li class="nav-item"><a class="nav-link " href="#" >Contact</a> </li>
+                  <li class="nav-item"><a class="nav-link " href="#" ><img src="../Media/images/search.png" alt="" class="search-icon"> <input type="text" class="serach-input" placeholder="search"></a> </li>
+                  <li class="nav-item"><a class="nav-link invastor-btn btn" href="#" >FOR INVASTOR <img src="../Media/images/arrow3.png" alt="" class="ms-1"></a> </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+         <!-- navbar end -->
+          <!-- banner section started here  -->
+                <section class="benner">
+                    <div class="container-fluid banner-container ">
+                        <h1 class="banner-title"></h1>
+                    </div>
+                </section>
+          <!-- banner section end here  -->
+      </header>
+    <!-- headers section end here  -->
+
+    <!-- main section started here   -->
+      <main>
+        <!-- about start  -->
+            <section class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="about-images">
+                                <div class="about-img-1 p-2"> 
+                                    <img src="../Media/images/aboutImg1.png" alt="">
+                                </div>
+                                <div class="about-img-2 p-2">
+                                    <img src="../Media/images/aboutImg2.png" alt="">
+                                </div>
+                                <div id="ex1" class="modal">
+                                    <video controls muted>
+                                       <source src="../Media/videos/Mantsion.mp4">
+                                    </video>
+                                     <!-- <a href="#" rel="modal:close">Close</a> -->
+                                 </div>
+                                 <a href="#ex1" rel="modal:open"><img src="../Media/images/play button.png" alt="" class="play-btn" ></a>
+                                 
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="about-details">
+                                <h2>About Mantsion</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id ipsum non turpis viverra commodo. Nullam porta condimentum sapien. Quisque consectetur consectetur est.
+                                </p>
+                                <div class="about-list-item">
+                                    <div class="left-item">
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Quisque consectetur</span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Consectetur adipiscing</span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>turpis viverra commospan></span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Nullam porta condi</span>
+                                    </div>
+                                    <div class="right-item">
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Consectetur adipiscing</span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Nullam porta condi</span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Quisque consectetur> </span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>turpis viverra commo</span>
+                                    </div>
+                                </div>
+                                <a href="" class="about-btn  mt-5">DISCOVER MORE <img src="../Media/images/arrow3.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about end  -->
+            <!-- count up start  -->
+             <section class="count-up-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="happy-clint">
+                                <span class="count-up-1 count-up">25</span>
+                                <span>K<sup><img src="../Media/images/plus.png" alt=""></sup></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="complete-project">
+                                <span class="count-up-1 count-up">560</span>
+                                <span>K<sup><img src="../Media/images/plus.png" alt=""></sup></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="property-sales">
+                                <span class="count-up-1 count-up">150</span>
+                                <span>K<sup><img src="../Media/images/plus.png" alt=""></sup></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="years-experience">
+                                <span class="count-up-1 count-up">15</span>
+                                <span>K<sup><img src="../Media/images/plus.png" alt=""></sup></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+            <!-- count up end  -->
+
+            <!-- dream home start  -->
+            <section class="dream-home-section px-4">
+                <div class="dream-home-container">
+                    <div class="container d-flex justify-content-center">
+                            <div class="dream-home">
+                                <h2>Your Dream Home Awaits</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id ipsum non turpis viverra commodo. Nullam porta condimentum sapien. Quisque consectetur. 
+                                </p>
+                                <button>CONTACT US <img src="../Media/images/aarrow4.png" alt="" class="ms-1"></button>
+                            </div>
+                    </div>
+                </div>
+            </section>
+            <!-- dream home end  -->
+
+            <!-- mission start  -->
+                <section class="vision-mission">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-5">
+                                <div class="vision-mission-container">
+                                    <h2>Vision & Mission</h2>
+                                    <img src="../Media/images/missionImg.png" alt="" class="mission-img">
+                                    <div id="ex1" class="modal">
+                                        <video controls muted>
+                                           <source src="../Media/videos/Mantsion.mp4">
+                                        </video>
+                                         <!-- <a href="#" rel="modal:close">Close</a> -->
+                                     </div>
+                                     <a href="#ex1" rel="modal:open"><img src="../Media/images/play button.png" alt="" class="mission-play-btn" ></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-7 ">
+                                <a href="" class="about-btn mt-4 ms-lg-auto">DISCOVER MORE <img src="../Media/images/arrow3.png" alt=""></a>
+                                <div class="vision-mission-container-details">
+                                    <div class="vision mission-vission-common">
+                                        <h3>Vision</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas id ipsum non turpis.  Maecenas id ipsum.
+                                        </p>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Quisque consectetur</span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Consectetur adipiscing</span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>turpis viverra commo</span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Nullam porta condi</span><br>
+                                    </div>
+                                    <div class="mission mission-vission-common">
+                                        <h3>Mission</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas id ipsum non turpis.  Maecenas id ipsum.
+                                        </p>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Consectetur adipiscing</span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Nullam porta condi</span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>Quisque consectetur</span><br>
+                                        <img src="../Media/images/arrow2.png" alt=""><span>turpis viverra commo</span><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- mission end  -->
+
+            <!-- Benefit and Mantsion start  -->
+            <section class="benefit-mantsion ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-7">
+                            <div class="benefit-card-container mt-5 mb-5">
+                                <div class="benefit-card">
+                                    <img src="../Media/images/benifit1.png" alt="">
+                                    <h3>Reliable</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
+                                </div>
+                                <div class="benefit-card">
+                                    <img src="../Media/images/benifit2.png" alt="">
+                                    <h3>Comfortable</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                </div>
+                                <div class="benefit-card">
+                                    <img src="../Media/images/benifit3.png" alt="">
+                                    <h3>Guanrantee</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                </div>
+                                <div class="benefit-card">
+                                    <img src="../Media/images/benifit4.png" alt="">
+                                    <h3>Affordable</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-5">
+                            <div class="benefit-details">
+                                <div class="benefit-detail">
+                                    <h2>Benefit in Mantsion</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id ipsum non turpis viverra commodo. Nullam porta condimentum sapien. Quisque consectetur consectetur est.
+                                    </p>
+                                    <a href="" class="about-btn mt-5 ">DISCOVER MORE <img src="../Media/images/arrow3.png" alt=""></a>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Benefit and Mantsion end  -->
+
+
+            <!-- Team section start -->
+                <section class="team-section mb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-5">
+                                <div class="team-details">
+                                    <div class="team-detail">
+                                        <h2>Meet the Team</h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id ipsum non turpis viverra commodo. Nullam porta condimentum sapien. Quisque consectetur consectetur est.
+                                        </p>
+                                        <a href="" class="about-btn mt-5 "> VIEW ALL<img src="../Media/images/arrow3.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-7">
+                                <div class="team-member-container">
+                                    <div class="team-member">
+                                        <img src="../Media/images/teamMember1.png" alt="">
+                                        <div class="social-icon">
+                                            <div class="icon-details">
+                                                <h3>Sarah Jhon</h3>
+                                                <h5>Architect</h5>
+                                            </div>
+                                            <div class="icon">
+                                                <p><i class="fa-brands fa-facebook"></i></p>
+                                                <p><i class="fa-brands fa-twitter"></i></p>
+                                                <p><i class="fa-brands fa-linkedin-in"></i></p>
+                                            </div>     
+                                        </div>
+                                    </div>
+                                    <div class="team-member">
+                                        <img src="../Media/images/teamMember2.png" alt="">
+                                        <div class="social-icon">
+                                            <div class="icon-details">
+                                                <h3>Sarah Jhon</h3>
+                                                <h5>Architect</h5>
+                                            </div>
+                                            <div class="icon">
+                                                <p><i class="fa-brands fa-facebook"></i></p>
+                                                <p><i class="fa-brands fa-twitter"></i></p>
+                                                <p><i class="fa-brands fa-linkedin-in"></i></p>
+                                            </div>     
+                                        </div>
+                                    </div>
+                                    <div class="team-member">
+                                        <img src="../Media/images/teamMember3.png" alt="">
+                                        <div class="social-icon">
+                                            <div class="icon-details">
+                                                <h3>Sarah Jhon</h3>
+                                                <h5>Architect</h5>
+                                            </div>
+                                            <div class="icon">
+                                                <p><i class="fa-brands fa-facebook"></i></p>
+                                                <p><i class="fa-brands fa-twitter"></i></p>
+                                                <p><i class="fa-brands fa-linkedin-in"></i></p>
+                                            </div>     
+                                        </div>
+                                    </div>
+                                    <div class="team-member">
+                                        <img src="../Media/images/teamMember4.png" alt="">
+                                        <div class="social-icon">
+                                            <div class="icon-details">
+                                                <h3>Sarah Jhon</h3>
+                                                <h5>Architect</h5>
+                                            </div>
+                                            <div class="icon">
+                                                <p><i class="fa-brands fa-facebook"></i></p>
+                                                <p><i class="fa-brands fa-twitter"></i></p>
+                                                <p><i class="fa-brands fa-linkedin-in"></i></p>
+                                            </div>     
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- Team section end -->
+
+            <!-- winning section start  -->
+            <section class="winning-section">
+                <div class="container">
+                    <div class="winning-header">
+                        <h2>We Are the Awards Winning</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id ipsum non turpis viverra commodo. Nullam porta condimentum sapien. Quisque consectetur.
+                        </p>
+                    </div>
+                    <div class="row winning-img-container">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="winning-img">
+                                <img src="../Media/images/winimg1.png" alt="">
+                                 <div class="winning-title">
+                                    <h2>25K <img src="../Media/images/plus-white.png" alt=""></h2>
+                                    <h5>Home Design Awards</h5>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="winning-img">
+                                <img src="../Media/images/winimg2.png" alt="">
+                                <div class="winning-title">
+                                    <h2>32K <img src="../Media/images/plus-white.png" alt=""></h2>
+                                    <h5>Interior Awards</h5>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="winning-img">
+                                <img src="../Media/images/winimg3.png" alt="">
+                                <div class="winning-title">
+                                    <h2>14 <img src="../Media/images/plus-white.png" alt=""></h2>
+                                    <h5>Construction Awards</h5>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="winning-img">
+                                <img src="../Media/images/winimg4.png" alt="">
+                                <div class="winning-title">
+                                    <h2>48 <img src="../Media/images/plus-white.png" alt=""></h2>
+                                    <h5>Eksterior Awards</h5>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- winning section end  -->
+
+            <!-- partner section start  -->
+            <section class="partner-section mt-5 mb-5">
+                <div class="container">
+                    <div class="partner-title">
+                        <h2>Our Trusted Partner</h2>
+                        <img src="../Media/images/clients.png" alt="">
+                    </div>
+                </div>
+                <hr>
+            </section>
+            <!-- partner section end  -->
+      </main>
+    <!-- main section end here   -->
+
+    <!-- footer section started here  -->
+    <footer>
+        <section class="footer-menu-section mb-5">
+            <div class="container">
+                <div class="menu-logo">
+                    <img src="../Media/images/footerlogo.png" alt=""> <br>
+                    <div class="footer-menu mt-5">
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Property</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-details-section">
+            <div class="container-fluid mb-5">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="contact p-4 footer-info">
+                            <h5>Contact Us</h5>
+                            <h3>mantsion@mail.com</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id ipsum non turpis viverra.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-3">
+                        <div class="address p-4 footer-info">
+                            <h5>Address</h5>
+                            <p>
+                                964 Worthington Drive <br>
+                                Rylie, Texas USA
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-5">
+                        <div class="blog-news p-4 footer-info">
+                            <h5>Blog & News</h5>
+                             <p><i class="bi bi-arrow-up-right"></i> “Best beach in Australia” to shake QLD coastal records</p>
+                             <p><i class="bi bi-arrow-up-right"></i> Burnt house in shocking condition gets the top price</p>
+                             <p><i class="bi bi-arrow-up-right"></i> QLD’s hoarder house attracts 39 registered bidders</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section class="copy-right mb-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <span>copyright &copy; 2022 ASK Project</span>
+                    </div>
+                    <div class="col-sm-12 col-lg-6 footer-icon-container text-end">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer section end here  -->
+
+   
+
+
+
+
+
+   
+
+
+
+    <!-- Modal Jquery cdn  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <!-- bootstrap js/popper/jquery link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- jQuery cdn link here  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- type js cdn here  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- cound up cdn here  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+    <!-- custom css link here  -->
+     <script src="../js/index.js"></script>
+</body>
+</html>

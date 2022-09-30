@@ -1,0 +1,719 @@
+/* browser reset and common style started here  */
+ *
+ {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+ }
+ body 
+ {
+    background-color: #051017;
+ }
+ html
+ {
+    scroll-behavior: smooth;
+ }
+/* browser reset and common style end here  */
+
+/* header style started here  */
+.nav-item 
+{
+    margin: 0px 10px;
+}
+.nav-link 
+{
+    color: white;
+    font-size: 18px;
+    font-family: 'Italiana', serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.nav-link:hover 
+{
+    color: goldenrod;
+}
+.search-icon 
+{
+    width: 20px;
+}
+.toggle-icon 
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serach-input 
+{
+    border-radius: 5px;
+    width: 0;
+    border: 0px;
+    /* padding: 2px 10px; */
+    margin-left: 7px;
+    transition: .5s all;
+}
+.search-input-filed 
+{
+     padding: 2px 10px;
+     width: auto;
+     border: auto;
+}
+.invastor-btn
+{
+    background-color: #A8894D;
+    color: black;
+    font-weight: 700px;
+    font-size: 15px;
+   
+}
+.nav-link:focus, .nav-link:hover {
+    color: #A8894D;
+}
+.invastor-btn:hover 
+{
+    background-color: #A8894D;
+    color: black;
+}
+.invastor-btn img 
+{
+    width: 12px;
+}
+/* banner section style started here  */
+
+.banner-container 
+{
+    background:linear-gradient(#05101781,#05101781),url('../Media/images/banner.png');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Italiana', serif;
+    color: white;
+}
+.typed-cursor
+{
+    display: none;
+}
+/* banner section style end here  */
+
+
+/* main section style started here  */
+
+/* about start  */
+.about 
+{
+    margin-top: 10%;
+}
+.about-images 
+{
+    display: flex;
+    position: relative;
+}
+.about-images img 
+{
+    max-width: 100%;
+}
+#ex1 
+{
+    padding: 0px;
+    height: auto;
+    max-width: 800px;
+   overflow: hidden;
+}
+video 
+{
+    width: 100%;
+}
+.play-btn
+{
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    width: 50px;
+    cursor: pointer;
+}
+.about-img-2 
+{
+    transform: translateY(-50px);
+}
+.about-details
+{
+    padding: 100px 20px;
+}
+.about-details h2 
+{
+    font-family: 'Italiana', serif;
+    margin-bottom: 20px;
+    color: white;
+}
+.about-details p 
+{
+    color: white;
+    margin-bottom: 20px;
+}
+.about-list-item 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-list-item img 
+{
+    width: 20px;
+    margin-right: 10px;
+}
+.about-list-item span 
+{
+    color: white;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 5px;
+    display: inline-block;
+}
+.about-btn img 
+{
+    width: 12px;
+    margin-left: 5px;
+}
+.about-btn 
+{
+  background-color: #A8894D;
+  width: 180px;
+  height: 40px;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  transition: .3s all;
+  align-items: center;
+  justify-content: center;
+
+}
+.about-btn:hover 
+{
+     background-color: white;
+     border: 1px solid #051017;
+     color: black;
+}
+
+
+/* count up start  */
+.count-up-section 
+{
+    margin-top: 5%;
+    text-align: center;
+}
+.count-up-section img 
+{
+    position: relative;
+    top: -15px;
+}
+.count-up-section span 
+{
+    font-family: 'Italiana', serif;
+    color: white;
+    font-size: 66px;
+}
+.count-up 
+{
+    max-width: 100px;
+    margin: 20px 10px;
+}
+/* count up end  */
+
+
+
+
+/* dream-home start  */
+.dream-home-container 
+{
+    background-image: url('../Media/images/banner2.png');
+    height: 782px;
+    max-width: 100%;
+    margin: 7% 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.dream-home 
+{
+    max-width: 1140px;
+    background-color: white;
+    padding: 70px 20px;
+    text-align: center;
+    border-radius: 2px;
+}
+.dream-home h2 
+{
+    font-family: 'Italiana', serif;
+    font-size: 63px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+.dream-home p 
+{
+    max-width: 80%;
+    margin: 0px auto;
+    font-size: 18px;
+    font-weight:300px;
+    margin-bottom: 20px;
+}
+.dream-home button 
+{
+    border: none;
+    outline: none;
+    background-color:#A8894D;
+    color: white;
+    height: 40px;
+    width: 180px;
+}
+/* dream-home end  */
+
+/* mission vision start  */
+.vision-mission
+{
+    margin-bottom: 7%;
+}
+.vision-mission-container
+{
+    position: relative;
+    
+}
+.vision-mission-container h2
+{
+    font-family: 'Italiana', serif;
+    color: #E8E8E8;
+    font-size: 63px;
+    margin-bottom: 40px;
+}
+.mission-img 
+{
+    max-width: 100%;
+}
+.mission-play-btn 
+{
+  position: absolute;
+  width: 75px;
+  top: 50%;
+  right: 50%;
+  cursor: pointer;
+  max-width: 100%;
+}
+.vision-mission-container-details 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top:100px ;
+}
+
+.mission-vission-common p 
+{
+    color: white;
+}
+.mission-vission-common span 
+{
+    color: white;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 5px;
+    display: inline-block;
+}
+.mission-vission-common h3
+{
+  font-family: 'Italiana', serif;
+  color: white;
+  font-size: 35px;
+}
+.vision 
+{
+    padding: 50px 80px 50px 0px;
+    border-right: 1px solid gray;
+}
+.mission 
+{
+    
+    padding: 50px 0px 50px 80px;
+   
+}
+/* mission vision end  */
+
+/* benefit and mantsion start  */
+    .benefit-card-container 
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .benefit-card 
+    {
+        border: 1px solid rgba(128, 128, 128, 0.309);
+        border-radius: 2px;
+        padding: 50px 40px;
+        text-align: center;
+        margin: 10px;
+        color: white;
+        transition: .3s all ease-in;
+    }
+    .benefit-card h3 
+    {
+        font-family: 'Italiana', serif;
+        font-size: 30px;
+        margin: 20px 0px;
+    }
+    .benefit-card:hover 
+    {
+        background-color:#E8E8E8 ;
+        color: black;
+    }
+    .benefit-details 
+    {
+        padding: 0px 10px;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        color: white;
+    }
+    .benefit-details h2 
+    {
+        font-size: 63px;
+        font-family: 'Italiana', serif;
+        margin: 30px 0px;
+    }
+    .benefit-details p 
+    {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 18px;
+    }
+/* benefit and mantsion end  */
+
+
+/* team section start  */
+.team-section 
+{
+    margin-top: 8%;
+}
+.team-details 
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.team-details h2 
+{
+    font-size: 63px;
+    font-family: 'Italiana', serif;
+}
+.team-details p 
+{
+    font-size: 18px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.team-member-container
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.team-member img 
+{
+   width: 100%;
+   filter: grayscale(0);
+   transition: .3s all;
+   
+}
+.team-member 
+{
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.social-icon i 
+{
+  font-size: 18px;
+  color: white;
+  transition: .3s all;
+  margin: 0px 12px;
+  cursor: pointer;
+}
+.social-icon i:hover 
+{
+    color: #A8894D;
+}
+.icon 
+{
+    display: flex;  
+}
+.social-icon
+{
+  position: absolute;
+  bottom: 20px;
+  transform: translateY(150px);
+  transition: .5s all ease-in-out;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.team-member:hover .social-icon
+{
+  transform: translateY(0px);
+}
+
+.icon-details
+{
+    color: white;
+}
+.icon-details h3 
+{
+    font-family: 'Italiana', serif;
+    font-size: 30px;
+}
+.team-member:hover.team-member img 
+{
+    filter: grayscale(1);
+}
+/* team section end  */
+
+/* winning section start  */
+.winning-section 
+{
+    margin-top: 7%;
+}
+.winning-header h2
+{
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 63px;
+    color: white;
+    margin-bottom: 40px;
+}
+.winning-header p 
+{
+    color: white;
+    font-size: 18px;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+
+}
+.winning-img-container 
+{
+    margin-top: 60px;
+}
+.winning-img
+{
+    overflow: hidden;
+    height: 329px;
+    /* background-color: green; */
+    margin-top: 25px;
+}
+.winning-img img 
+{
+    width: 100%;
+    opacity: .6;
+}
+.winning-title 
+{
+    position: relative;
+    color: white;
+    transform: translateY(-200px);
+    text-align: center;
+}
+.winning-title h2 
+{
+    font-size: 66px;
+    font-family: 'Italiana', serif;
+}
+.winning-title h5 
+{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+} 
+.winning-title img 
+{
+    width: 20px;
+    position: absolute;
+}
+/* winning section end  */
+
+/* partner section start  */
+   .partner-title h2 
+   {
+     color: white;
+     font-family: 'Italiana', serif;
+     font-size: 63px;
+     text-align: center;
+   }
+   .partner-title img 
+   {
+     max-width: 100%;
+     margin: 100px 0px;
+   }
+   .partner-section hr 
+   {
+    color: rgba(255, 255, 255, 0.521);
+   }
+/* partner section end  */
+
+/* main section style end here  */
+
+/* footer section style started here  */
+  /* footer menu start  */
+   .menu-logo 
+   {
+     text-align: center;
+   }
+   .menu-logo a 
+   {
+     text-decoration: none;
+     font-size: 18px;
+     font-family: 'Lexend Deca', sans-serif;
+     color: white;
+     margin:40px 20px;
+    transition: .3s all;
+   }
+   .menu-logo a:hover 
+   {
+    color: #A8894D;
+   }
+   .menu-logo a:active 
+   {
+     color: #A8894D;
+   }
+  /* footer menu end  */
+
+
+  /* footer details start  */
+  .footer-details-section 
+  {
+    color: white;
+    margin-top: 5%;
+  }
+  .blog-news img 
+  {
+    color: #A8894D;
+  }
+  .footer-info h5 
+  {
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  .footer-info h3 
+  {
+    font-size: 35px;
+    font-family: 'Italiana', serif;
+    margin: 25px 0px;
+  }
+  .footer-info p 
+  {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .blog-news p 
+  {
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+  }
+  .blog-news p:hover 
+  {
+    color: #A8894D;
+  }
+  .blog-news p i
+  {
+    margin-right: 10px;
+  }
+  /* footer details end  */
+
+
+  /* footer-copy-right start */
+   .copy-right 
+   {
+    color: lightgray;
+   }
+   .footer-icon-container a
+   {
+
+    color: lightgray;
+    font-size: 18px;
+    margin: 0px 15px;
+    cursor: pointer;
+   }
+   .footer-icon-container a i
+   {
+     transition: .2s all;
+   }
+   .footer-icon-container a i:hover 
+   {
+    transform: translateY(-6px);
+    color: #A8894D;
+   }
+  /* footer-copy-right end */
+
+
+/* footer section style end here  */
+
+
+
+/* Responsive Section Here  */
+@media screen  and (max-width:1405px)
+{
+    .mission 
+   {
+      padding: 50px 20px 50px 40px;
+   }
+   .vision
+   {
+      padding: 50px 40px 50px 0px;
+   }
+
+}
+@media screen  and (max-width:766px)
+{
+    .vision-mission-container-details 
+    {
+        flex-direction: column;
+        padding-top:10px ;
+    }
+    .mission 
+   {
+     padding: 50px 0px; 
+   }
+   .vision
+   {
+     border: none;
+     border-bottom: 1px solid gray;
+   }
+   .benefit-card-container 
+   {
+       grid-template-columns: auto ;
+   }
+   .team-member-container 
+   {
+     grid-template-columns: auto;
+   }
+   .mission-play-btn  
+   {
+     right: 40%;
+   }
+
+}
