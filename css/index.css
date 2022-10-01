@@ -627,12 +627,13 @@ video
   .footer-info p 
   {
     font-size: 18px;
-    margin-top: 25px;
+    margin-top: 15px;
   }
   .blog-news p 
   {
     cursor: pointer;
     transition: .3s all ease-in-out;
+    font-size: 18px;
   }
   .blog-news p:hover 
   {
@@ -640,7 +641,7 @@ video
   }
   .blog-news p i
   {
-    margin-right: 10px;
+    margin-right: 5px;
   }
   /* footer details end  */
 
@@ -714,6 +715,13 @@ video
    .mission-play-btn  
    {
      right: 40%;
+   }
+   .footer-icon-container 
+   {
+    text-align: left!important;
+    padding-left: 0;
+    margin-left: 0px;
+    margin-top: 20px;
    }
 
 }
